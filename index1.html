@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+         font-family: 'Karla', sans-serif;
+         background-color: #e5eff5;
+         height: 100%;
+         width: 100%;
+         position: relative;
+         margin: 0;
+         font-size: 16px;
+      }
+      /*pricing prompt move to the centered middle of the body*/
+      .pricing-prompt {
+        position: relative;
+        width: 900px;
+        height: 700px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .top-row {
+        border: none;
+        border-radius: 20px 20px 0 0;
+        background-color: white;
+        height: 40%;
+        position: relative;
+      }
+      .top-row-content {
+        margin: 0;
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      .bottom-row-content {
+        margin: 0;
+        width: 80%;
+        height: 50%;
+        position: absolute;
+        top: 40px;
+        left: 40px;
+      }
+      .bottom-row-column-one {
+        height: 60%;
+        background-color: #2ab2af;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        border-radius: 0 0 0 20px;
+      }
+      .bottom-row-column-two {
+        height: 60%;
+        background-color: #4db3b1;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        border-radius: 0 0 20px 0;
+      }
+      .why-us-content{
+        position: absolute;
+        bottom: 0px;
+      }
+      h1 {
+        color: #2ab2af;
+        margin: 0;
+      }
+
+      h2 {
+        color: #c0df34;
+        margin: 0;
+        padding: 20px 0;
+      }
+
+      h3 {
+        color: white;
+        margin: 0;
+      }
+
+      p {
+        color: #98a6bd;
+        margin: 0;
+        line-height: 1.5;
+      }
+      .btn {
+        -webkit-border-radius: 9;
+        -moz-border-radius: 9;
+        border-radius: 9px;
+        font-family: Arial;
+        color: white;
+        font-size: 15px;
+        background: #c0df34;
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        border: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pricing-prompt">
+        <div class="top-row">
+          <div class="top-row-content">
+            <h1>
+              Join our community
+            </h1>
+            <h2>
+              30-day, hassle-free money back guarantee
+            </h2>
+            <p>
+              Gain access to our full library of tutorials along with expert code reviews.
+              Perfect for any developers who are serious about honing their skills.
+            </p>
+          </div>
+        </div>
+        <div class="bottom-row-column-one">
+          <div class="bottom-row-content">
+            <h3>Monthly Subscription</h3>
+            <p style="margin-top: 20px;"><span style="font-size: 30px; color: white">&dollar;29</span><span style="font-size: 16px; font-weight: 200; color:white">&nbsp;&nbsp;per month</span></p>
+            <p style="margin-top: 20px;"><span style="font-size: 16px; font-weight: 200; color: white;">Full access for less than &dollar;1 a day</span></p>
+            <button class="btn">Sign Up</button>
+          </div>
+        </div>
+        <div class="bottom-row-column-two">
+          <div class="bottom-row-content">
+            <h3>Why Us</h3>
+            <p class="why-us-content">
+              <span style="font-size: 16px; font-weight: 200; color: white;, padding-top: 20px;">
+              Tutorials by industry experts<br>
+              Peer &amp; expert code review<br>
+              Coding exercises<br>
+              Access to our GitHub repos<br>
+              Community forum<br>
+              Flashcard decks<br>
+              New videos every week<br>
+              </span>
+            </p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>
